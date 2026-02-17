@@ -1,0 +1,166 @@
+@charset "utf-8";
+body{
+    font-family:serif;
+    color:#333;
+    margin: 0;
+    height: 0;
+   background-image: url("../img/Kishiki.jpg");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   flex-direction: row;
+    align-items: flex-start;
+}
+
+.midashi{
+    font-size: 25px;
+    margin: 0px;
+}
+
+.omoide{
+       display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+}
+
+.omoide img{
+    display: block;
+    width: 450px;
+    max-height: 600px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+nav{
+    font-size: 30px;
+}
+nav a{
+    color: yellow;
+    text-decoration:none;
+    padding: 10PX 15PX;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover{
+    text-decoration:none;
+    color: red;
+}
+
+h1{color: aliceblue;
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h3{
+    color: aliceblue;  
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+main{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 150px 200;
+}
+
+.likes{
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.5);
+  
+}
+
+.anokoro{
+    padding: 50px 0;
+    text-align: center;
+
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-top: 40px;
+}
+
+.profile img{
+    margin: 1%;
+    width: 21%;
+    height: 92vh;
+    top: 8vh;
+    left: 79%;
+    position: fixed
+}
+
+.seikaku img{
+    margin: 1%;
+    width: 21%;
+    height: 92vh;
+    top: 8vh;
+    left: 79%;
+    position: fixed
+}
+
+.dream img{
+    margin: 1%;
+    width: 21%;
+    height: 92vh;
+    top: 8vh;
+    left: 78%;
+    position: fixed
+}
+
+.like img{
+    margin: 1%;
+    width: 21%;
+    height: 92vh;
+    top: 8vh;
+    left: 79%;
+    position: fixed
+}
+
+.message img{
+    margin: 1%;
+    width: 21%;
+    height: 92vh;
+    top: 8vh;
+    left: 79%;
+    position: fixed
+}
+
+.himitsu img{
+    margin: 1%;
+    width: 21%;
+    height: 92vh;
+    top: 8vh;
+    left: 79%;
+    position: fixed
+}
