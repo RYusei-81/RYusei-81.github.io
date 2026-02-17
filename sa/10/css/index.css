@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.container{
+    font-size: 40px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    line-height: 0;
+}
+
+p{
+    text-align: center;  
+}
+
+h2{
+    text-align: center;
+    line-height: 0;
+   
+}
+
+h3{
+    text-align: center;
+    line-height: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+
+}
+li{
+        line-height: 57px;
+        font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.menu{
+    position: relative;
+    z-index: 100;
+}
+
+.img{
+    /*
+    background-image: url(../img/kero.png);
+    position: absolute;
+    z-index: -100;
+    width: 96%;
+    left: 2%;
+    height: 600px;
+    top: 256px;
+    */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.kero{
+    width: 33%;
+    margin: 80px;
+    background-color: brown;
+}
+.batu{
+    width: 30%;
+    margin: 30px;
+}
+.kirimi{
+    width: 33%;
+    margin: 30px;
+}
+
+.yohaku{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}

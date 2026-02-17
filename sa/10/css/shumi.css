@@ -1,0 +1,61 @@
+@charset "utf-8";
+body{
+    padding: 0 20%;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+
+}
+h1,p{
+    text-align: center;
+
+}
+.onngaku{
+    font-size: 20px;
+    font-family: unset;
+
+}
+.box{
+    height: 245px;
+    text-align: center;
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 20%;
+    margin: 20px;
+    padding-top: 100px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-around;
+}
+.flex div{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 25%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    line-height: 18px
+}
+
+.flex div img{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.mannaka{
+    display: flex;
+    justify-content: center;
+}

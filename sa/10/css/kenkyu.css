@@ -1,0 +1,94 @@
+@charset "utf-8";
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    border-top: solid 2px;
+    border-right: solid 2px;
+    border-left: solid 2px;
+    border-bottom: solid 1px;
+}
+
+.tema{
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-left: solid 2px;
+    border-bottom: solid 1px;
+}
+
+.sohuto{
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: solid 1px;
+    border-right: solid 2px;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.kataribe{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: solid 1px;
+    border-right: solid 2px;
+    border-left: solid 2px;
+    border-bottom: solid 1px;
+}
+
+.soto{
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-left: solid 2px;
+    border-bottom: solid 1px;
+}
+
+.naka1{
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: solid 1px;
+    border-right: solid 2px;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.naka2{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: solid 1px;
+    border-right: solid 2px;
+    border-left: solid 2px;
+    border-bottom: solid 2px;
+}
+
+#heya1{
+    margin-right: 214px;
+}
+
+.mannaka{
+    margin-left: 700px;
+}
+
