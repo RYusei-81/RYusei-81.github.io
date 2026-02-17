@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+    background-color: #e4c1be;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    border: double 5px #ffffff;
+    width: 400px;
+}
+
+img{
+    width: 200px;
+    height: 270px;
+}
+
+
+h1{
+    text-align: center;
+  border: double 5px;
+}
+
+.as{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+h2{
+  text-align: center;
+}
+
+.sd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.ss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.uu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+
+
+
+
+
