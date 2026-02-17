@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    background-image: url(../img/kuroi.png);
+    background-position: bottom;
+    background-color: rgb(244, 245, 243);
+    background-size: auto;
+    z-index: 1;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
+
+#midashi{
+    font-size: 50px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#nav li{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 35px;
+}
